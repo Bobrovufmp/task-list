@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task list / to do / calendar</title>
+  </head>
+  <body>
+    <header>
+      <h1>Task list</h1>
+      <form id="new-task-form">
+        <input
+          type="text"
+          id="new-task-input"
+          placeholder="What do you have planned?"
+        />
+        <input type="submit" id="new-task-submit" value="Add task" />
+      </form>
+    </header>
+    <!-- <div id="categories-list">
+      <h2>Categories</h2>
+      <div id="categories">
+        <div class="category"></div>
+        <form id="new-category">
+          <input type="button" id="new-category-button" value="+" />
+        </form>
+        </div>
+      </div> -->
+    <main>
+      <section class="task-list">
+        <h2>Tasks</h2>
+        <div id="tasks">
+          <!-- <div class="task">
+            <div class="content">
+              <input type="checkbox" class="mark-as-done" />
+              <input type="text" class="text" value="My task" readonly />
+            </div>
+            <div class="actions">
+              <button class="edit">Edit</button>
+              <button class="delete">Delete</button>
+            </div>
+          </div> -->
+        </div>
+      </section>
+    </main>
+
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
